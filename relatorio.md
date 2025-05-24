@@ -80,4 +80,4 @@ Após a adição da coluna Preco GBP, o DataFrame df\_cambio apresenta a seguint
 
 ## **8\. Conclusão**
 
-Este projeto de câmbio financeiro é um exemplo de como o Python e a biblioteca Pandas podem ser utilizados para manipular e transformar dados financeiros de forma eficiente. Demonstra a criação de DataFrames, a definição de funções para conversão e a aplicação de funções lambda para adicionar novas informações baseadas em dados existentes.
+Este projeto de câmbio financeiro é um exemplo de como o Python e a biblioteca Pandas podem ser utilizados para manipular e transformar dados financeiros. Demonstra a criação de DataFrames, definição de funções para conversão e a aplicação de funções lambda para adicionar novas informações baseadas em dados existentes.
