@@ -2,7 +2,7 @@
 
 ## **1\. Introdução**
 
-Este documento fornece uma visão detalhada do projeto de câmbio financeiro implementado em Python, utilizando a biblioteca Pandas. O objetivo principal do projeto é demonstrar a manipulação de dados de preços de produtos em diferentes moedas e a capacidade de adicionar novas conversões monetárias a um conjunto de dados existente.
+Este documento é um registro do projeto de câmbio financeiro implementado em Python, utilizando a biblioteca Pandas. O objetivo principal do projeto é demonstrar a manipulação de dados de preços de produtos em diferentes moedas e a capacidade de adicionar novas conversões monetárias a um conjunto de dados existente.
 
 **2\. Bibliotecas Utilizadas**
 
