@@ -6,36 +6,17 @@ O objetivo do projeto é demonstrar a manipulação de dados de preços de produ
 
 **2\. Bibliotecas Utilizadas**
 
-O projeto faz uso da seguinte biblioteca Pandas, uma biblioteca flexível para análise e manipulação de dados em Python.
-
-A biblioteca foi importada no início do projeto com o comando "import pandas as pd".
+O projeto faz uso da biblioteca Pandas.
 
 ## **3\. Conjunto de Dados Inicial**
 
 O ponto de partida do projeto é um conjunto de dados fictício, criado como um dicionário. Este dicionário contém informações sobre três produtos (Produto A, Produto B, Produto C) e seus respectivos preços em três moedas: Dólar Americano (USD), Euro (EUR) e Iene Japonês (JPY).
 
-dados\_cambio \= {'Produto':\['Produto A','Produto B','Produto C'\],  
-                'Preco USD': \[100,150,200\],  
-                'Preco EUR':\[85,125,170\],  
-                'Preco JPY':\[10000,15000,20000\]  
-               }
-
 Para facilitar a manipulação e análise, este dicionário foi convertido em um DataFrame do Pandas com o comando: df\_cambio \= pd.DataFrame(dados\_cambio)
-
-A estrutura inicial do DataFrame df\_cambio é a seguinte:
-
-| Produto | Preco USD | Preco EUR | Preco JPY |
-| :---- | :---- | :---- | :---- |
-| Produto A | 100 | 85 | 10000 |
-| Produto B | 150 | 125 | 15000 |
-| Produto C | 200 | 170 | 20000 |
 
 ## **4\. Função de Conversão de Câmbio**
 
 Uma função auxiliar, conversao\_para\_usd, foi definida para realizar a conversão de um preço de uma moeda para Dólar Americano (USD), dado um preço e uma taxa de câmbio.
-
-def conversao\_para\_usd(preco, taxa):  
-    return preco / taxa
 
 **O que a Função Faz:**
 
